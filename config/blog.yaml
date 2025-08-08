@@ -2,11 +2,12 @@ server:
   host: 127.0.0.1
   port: 4567
 
-logfile:
-  file_name: "blog.log"
-  file_path: ""
-  max_size: 50 # 单位：MB
-  log_level: info
-  compress: true
-  to_stdout: false
-  is_json: false
+
+    # 日志文件名
+    # 日志路径
+    # 单个日志最大容量，单位：MB
+    # 日志最大备份数量
+    # 日志级别
+    # 是否压缩
+    # 是否输出到标准输出
+  # 是否为json格式
